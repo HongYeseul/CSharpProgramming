@@ -90,7 +90,7 @@ namespace Homework3_1
 
             foreach (Car temp in cars)
             {
-                Console.WriteLine("모델명: " + temp.Name + ", 가격: " + temp.Value + ", 배기량: " + temp.Cc +", 세금: " + temp.TaxCalc());
+                Console.WriteLine("모델명: " + temp.Name + ", 가격: " + temp.Value + ", 배기량: " + temp.Cc + ", 세금: " + temp.TaxCalc());
             }
         }
     }
