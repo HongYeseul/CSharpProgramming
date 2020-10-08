@@ -21,6 +21,8 @@ namespace Homework3_1
             cars.Add(Genesis);
             cars.Add(Opirus);
             cars.Add(Rio);
+
+            Console.WriteLine("HELLO MERGE");
         }
     }
 }
