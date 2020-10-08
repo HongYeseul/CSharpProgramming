@@ -8,7 +8,7 @@ namespace Homework3_1
     {
         //Vehicle car = new Car();
         private int cc;
-        private int Cc
+        public int Cc
         {
             get
             {
