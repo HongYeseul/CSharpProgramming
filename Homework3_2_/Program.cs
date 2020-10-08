@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Homework3_2
 {
@@ -11,7 +15,7 @@ namespace Homework3_2
             bookStore.AddBook(new Book("우리들의 행복한 시간", 1002));
             bookStore.AddBook(new Book("블루오션 전략", 1003));
             bookStore.AddBook(new Book("나를 사랑하는 법", 1004));
-
+            
             Console.WriteLine("You have {0} in the store\n", bookStore.BookCount);
 
             foreach (Book b in bookStore.al)
