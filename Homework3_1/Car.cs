@@ -6,7 +6,6 @@ namespace Homework3_1
 {
     class Car : Vehicle
     {
-        //Vehicle car = new Car();
         private int cc;
         public int Cc
         {
