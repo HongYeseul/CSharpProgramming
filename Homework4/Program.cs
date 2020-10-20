@@ -52,7 +52,7 @@ namespace Homework4
                 callback(i, cpu, mem);
                 list.Add(t);
             }
-;
+
             while (true)
             {
                 Console.WriteLine("=================");
