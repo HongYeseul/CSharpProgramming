@@ -5,7 +5,6 @@ using System.Text;
 
 namespace Homework4
 {
-    delegate void PCINFO();
     delegate void SETPCINFO(int id, String cpu, int mem);
     delegate void StartTime(long time);
     delegate int StopTime(long time);
@@ -47,16 +46,12 @@ namespace Homework4
             // 사용 종료시간 받아서 구하고 요금 계산해서 반환
             cost = (int)((double)(IStop - IStart) / 10000000.0F)*500;
             iTotal += cost;
-            Console.WriteLine("TOTAL>> " + iTotal);
             return cost;
         }
         public int getTotal()
         {
             // 프로그램 시작 이후에 PC 객체를 사용한 금액의 합을 반환
-           // if (iTotal > 0)
-           // {
-                eventCall(iTotal);
-           // }
+            eventCall(iTotal);
             return iTotal;
         }
     }
