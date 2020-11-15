@@ -35,10 +35,10 @@ namespace Homework6
                 while (sr.EndOfStream == false)
                 {
                     dynamic name = sr.ReadLine();
-                    dynamic number = sr.ReadLine();
                     dynamic addr = sr.ReadLine();
+                    dynamic number = sr.ReadLine();
 
-                    string[] row = { name, number, addr };
+                    string[] row = { name, addr, number };
                     var rowItem = new ListViewItem(row);
                     listView.Items.Add(rowItem);
                 }
